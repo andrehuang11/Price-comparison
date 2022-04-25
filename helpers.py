@@ -27,10 +27,3 @@ def get_price_and_market(product_url):
             except AttributeError:
                 price = "Indisponível"
     return price, market
-
-
-
-
-
-
-
