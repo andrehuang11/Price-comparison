@@ -23,5 +23,3 @@ def get_data():
         conn.commit()
         
     conn.close()
-
-
