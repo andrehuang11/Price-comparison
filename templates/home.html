@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block body %}
+    <h3>Selecione o produto que deseja pesquisar o preço</h3>
+    <form action="/" method="post">
+        <div class="mb-3">
+            <select class="form-select mx-auto w-auto" name="product">
+                <option disabled selected>Escolha um produto</option>
+                {% for product in products %}
+                    <option value="{{ product[0] }}">{{ product[0] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Pesquisar</button>
+    </form>
+{% endblock %}

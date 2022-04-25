@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Resultado
+{% endblock %}
+
+{% block body %}
+    <h3>{{ product }}</h3>
+    <table class="table tablestriped">
+        <thead>
+            <tr>
+                <th class="text-start">Mercado</th>
+                <th class="text-end">Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for result in results %}
+                <tr>
+                    <td class="text-start">{{ result[1] }}</td>
+                    <td class="text-end">{{ result[0] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <form action="/">
+        <button class="btn btn-primary" type="submit">Home</button>
+    </form>
+{% endblock %}
