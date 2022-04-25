@@ -1,8 +1,8 @@
 # Price Checker for Non-perishables
 
-<img src="Screenshots/main page.png" width="700">
+<img src="https://github.com/andrehuang11/Price-comparisor/blob/master/Screenshots/main%20page.PNG" width="700">
 
-> A price checker and comparison for top selling non-perishables in Brazil (rice, beans and coffee) on popular supermarkets (Sonda, Extra and Pão de açúcar), that gets data with a Web Scrapping script. Video Demo: https://youtu.be/_TFzf-PUmjU
+> A price checker and comparison app for top selling non-perishables in Brazil (rice, beans and coffee) on popular supermarkets (Sonda, Extra and Pão de açúcar), that gets data with a Web Scrapping script. Video Demo: https://youtu.be/_TFzf-PUmjU
 
 ##  Prerequisites
 - Python
