@@ -21,7 +21,7 @@ pip install lxml
 
 ##  Starting
 
-To start the application run app.py
+To start the application run app.py in your IDE
 
 ```
 python app.py
